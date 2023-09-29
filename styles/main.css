@@ -37,6 +37,12 @@ ul {
   margin: 0 auto;
   padding: 0 1rem;
 }
+.wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .header {
   background-color: var(--background-footer);
 }
@@ -83,19 +89,19 @@ ul {
 .footer__menu-link {
   color: var(--color-link);
 }
-.footer__menu-list{    
-   max-width: 250px;
-   padding: 0;
+.footer__menu-list {
+  max-width: 250px;
+  padding: 0;
 }
 .app__list {
   display: flex;
   justify-content: center;
-  gap: 4rem; 
+  gap: 4rem;
   margin-bottom: 5rem;
 }
 .footer__copy {
-    max-width: 80.6rem;
-     margin: 0 auto 3rem;
+  max-width: 80.6rem;
+  margin: 0 auto 3rem;
 }
 .footer__copy-text {
   text-align: center;
